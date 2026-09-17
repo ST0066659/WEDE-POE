@@ -41,8 +41,55 @@ img {
     display: block;
 }
 
+/* navigation
+   creates the menu used to move between pages */
 
-/* header
-   styles the top part of the website
- */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: #f2fae6;
+    padding: 1rem;
+}
+
+nav a {
+    color: #080c0f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+}
+
+
+/* changes the link background when the mouse is over it */
+
+nav a:hover {
+    background-color: #1d1a0e;
+    text-decoration: none;
+}
+
+
+/* adds an outline when the link is selected */
+
+nav a:focus {
+    outline: 2px solid rgb(129, 70, 70);
+    outline-offset: 2px;
+}
+
+
+/* changes the link colour when it is clicked */
+
+nav a:active {
+    background-color: #a88a6d;
+}
+
+/* keyboard navigation
+   shows a clear outline when using the tab key */
+nav a:focus{
+    outline: 2px solid #1F4E79;
+    outline-offset: 2px;
+}
+
 
