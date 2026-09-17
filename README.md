@@ -8,6 +8,27 @@ as part of a school POE website project.
 The website focuses on animal rescue, adoption, fostering, volunteering,
 sponsorship and animal welfare.
 
+## Part 2
+
+For Part 2, I started adding CSS to my website. I used CSS to change the colours and layout of the website.
+
+I am also working on making the website look better on different screen sizes, such as phones and tablets.
+
+## Changelog
+
+### Part 2 updates
+
+- started adding css to the website
+
+### Part 2 updates
+
+- added css styling to the website
+- improved the layout and appearance of the website
+- added responsive design for tablets and mobile devices
+- improved navigation and keyboard focus
+- added styling for forms and buttons
+- updated the website sections, articles and footer
+
 ## Research and Content
 
 The Paws & Hope Animal Rescue website was created as a fictional school
