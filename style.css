@@ -14,7 +14,7 @@ css styling for my website */
 
 
 /*
-   2. base styles
+    base styles
    sets the basic font, text colour and page background */
 
 html {
@@ -353,7 +353,7 @@ footer p {
 
 
 /*
-   14. tablet responsive design
+    tablet responsive design
    changes the layout for tablet-sized screens */
 
 @media (max-width: 768px) {
