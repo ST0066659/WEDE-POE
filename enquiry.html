@@ -49,157 +49,59 @@
                 Animal Rescue. Complete the form below <br><br> and tell us
                 how you would like to get involved.
             </p>
-        </section>
+  
+<!-- Enquiry form -->
+<section>
+    <h2>Make an Enquiry</h2>
 
-        <!--Adoption enquiry form-->
-        <section>
-            <h2>Adoption Enquiry</h2>
+    <form id="enquiryForm"
+          action="https://formsubmit.co/ajax/info@pawsandhope.org"
+          method="POST">
 
-            <form>
+        <label for="enquiry-name">Full Name:</label>
+        <input type="text" id="enquiry-name" name="name"
+               required minlength="2" maxlength="50">
 
-                <label for="adoption-name">Full Name:</label>
-                <input type="text" id="adoption-name" name="adoption-name">
+        <br><br>
 
-                <br><br>
+        <label for="enquiry-email">Email Address:</label>
+        <input type="email" id="enquiry-email" name="email"
+               required>
 
-                <label for="adoption-email">Email Address:</label>
-                <input type="email" id="adoption-email" name="adoption-email">
+        <br><br>
 
-                <br><br>
+        <label for="enquiry-phone">Telephone Number:</label>
+        <input type="tel" id="enquiry-phone" name="phone"
+               pattern="[0-9 +()-]{7,15}"
+               title="Enter a valid telephone number">
 
-                <label for="animal-type">Animal You Are Interested In:</label>
-                <select id="animal-type" name="animal-type">
-                    <option value="">Please select</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="other">Other</option>
-                </select>
+        <br><br>
 
-                <br><br>
+        <label for="enquiry-type">Type of Enquiry:</label>
+        <select id="enquiry-type" name="enquiry_type" required>
+            <option value="">Please select</option>
+            <option value="Adoption">Adoption</option>
+            <option value="Volunteering">Volunteering</option>
+            <option value="Sponsorship">Sponsorship</option>
+            <option value="Foster Care">Foster Care</option>
+        </select>
 
-                <label for="adoption-message">Tell Us About Your Enquiry:</label>
-                <br>
-                <textarea id="adoption-message" name="adoption-message" rows="5" cols="40"></textarea>
+        <br><br>
 
-                <br><br>
+        <label for="enquiry-details">Additional Information:</label>
+        <textarea id="enquiry-details" name="message"
+                  rows="5" minlength="10" maxlength="500"
+                  required></textarea>
 
-                <button type="submit">Submit Adoption Enquiry</button>
+        <br><br>
 
-            </form>
-        </section>
+        <button type="submit">Submit Enquiry</button>
 
-        <!--Volunteer enquiry form-->
-        <section>
-            <h2>Volunteer Enquiry</h2>
+        <p id="enquiryResponse" role="status"></p>
 
-            <form>
+    </form>
+</section>
 
-                <label for="volunteer-name">Full Name:</label>
-                <input type="text" id="volunteer-name" name="volunteer-name">
-
-                <br><br>
-
-                <label for="volunteer-email">Email Address:</label>
-                <input type="email" id="volunteer-email" name="volunteer-email">
-
-                <br><br>
-
-                <label for="volunteer-interest">How Would You Like to Help?</label>
-                <select id="volunteer-interest" name="volunteer-interest">
-                    <option value="">Please select</option>
-                    <option value="animal-care">Animal Care</option>
-                    <option value="events">Events</option>
-                    <option value="administration">Administration</option>
-                    <option value="fundraising">Fundraising</option>
-                </select>
-
-                <br><br>
-
-                <label for="volunteer-message">Additional Information:</label>
-                <br>
-                <textarea id="volunteer-message" name="volunteer-message" rows="5" cols="40"></textarea>
-
-                <br><br>
-
-                <button type="submit">Submit Volunteer Enquiry</button>
-
-            </form>
-        </section>
-
-        <!--Sponsorship enquiry form-->
-        <section>
-            <h2>Sponsorship Enquiry</h2>
-
-            <form>
-
-                <label for="sponsor-name">Full Name:</label>
-                <input type="text" id="sponsor-name" name="sponsor-name">
-
-                <br><br>
-
-                <label for="sponsor-email">Email Address:</label>
-                <input type="email" id="sponsor-email" name="sponsor-email">
-
-                <br><br>
-
-                <label for="sponsorship-type">Type of Support:</label>
-                <select id="sponsorship-type" name="sponsorship-type">
-                    <option value="">Please select</option>
-                    <option value="financial">Financial Support</option>
-                    <option value="supplies">Animal Supplies</option>
-                    <option value="business">Business Sponsorship</option>
-                    <option value="other">Other</option>
-                </select>
-
-                <br><br>
-
-                <label for="sponsor-message">Tell Us More:</label>
-                <br>
-                <textarea id="sponsor-message" name="sponsor-message" rows="5" cols="40"></textarea>
-
-                <br><br>
-
-                <button type="submit">Submit Sponsorship Enquiry</button>
-
-            </form>
-        </section>
-
-        <!--Foster care enquiry form-->
-        <section>
-            <h2>Foster Care Enquiry</h2>
-
-            <form>
-
-                <label for="foster-name">Full Name:</label>
-                <input type="text" id="foster-name" name="foster-name">
-
-                <br><br>
-
-                <label for="foster-email">Email Address:</label>
-                <input type="email" id="foster-email" name="foster-email">
-
-                <br><br>
-
-                <label for="foster-animal">Preferred Animal:</label>
-                <select id="foster-animal" name="foster-animal">
-                    <option value="">Please select</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="other">Other</option>
-                </select>
-
-                <br><br>
-
-                <label for="foster-message">Tell Us About Your Situation:</label>
-                <br>
-                <textarea id="foster-message" name="foster-message" rows="5" cols="40"></textarea>
-
-                <br><br>
-
-                <button type="submit">Submit Foster Enquiry</button>
-
-            </form>
-        </section>
 
     </main>
 
@@ -209,6 +111,8 @@
         <p>Helping animals find safe and loving homes.</p>
     </footer>
 
+
+<script src="script.js"></script>    
 </body>
 
 </html>
