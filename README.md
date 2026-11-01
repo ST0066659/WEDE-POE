@@ -94,3 +94,10 @@ Image References section below.
 10. Alexas_Fotos. (2018). *Telephone, Vintage, Monochrome*. Pixabay.  
     Available at: Pixabay.  
     Accessed: 11 August 2026.
+
+    
+    ### Part 3 – Web Development and SEO Sources
+
+11. MDN Web Docs. (2025). *JavaScript Guide*.  
+    Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide  
+    Accessed: 1 November 2026.
