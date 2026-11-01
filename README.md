@@ -101,3 +101,19 @@ Image References section below.
 11. MDN Web Docs. (2025). *JavaScript Guide*.  
     Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide  
     Accessed: 1 November 2026.
+
+12. MDN Web Docs. (2025). *Using HTML Form Validation*.  
+    Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation  
+    Accessed: 1 November 2026.
+
+13. Google Search Central. (n.d.). *SEO Guide for Web Developers*.  
+    Available at: https://developers.google.com/search/docs/fundamentals/get-started-developers  
+    Accessed: 1 November 2026.
+
+14. Google Search Central. (n.d.). *Introduction to robots.txt*.  
+    Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro  
+    Accessed: 1 November 2026.
+
+15. MDN Web Docs. (n.d.). *Using the Fetch API*.  
+    Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch  
+    Accessed: 1 November 2026.
