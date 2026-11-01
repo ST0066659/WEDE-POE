@@ -47,3 +47,38 @@ async function searchWebsite() {
 
     results.textContent = "Search not found.";
 }
+
+// image lightbox
+
+const imageLightbox = document.querySelector("#images-lightbox");
+const enlargedImage = document.querySelector("#lightbox-image");
+const closeLightboxButton = document.querySelector("#close-lightbox");
+
+const productImages = document.querySelectorAll(".lightbox-images");
+
+if (imageLightbox && enlargedImage && closeLightboxButton) {
+
+    productImages.forEach(function (productImage) {
+
+        productImage.addEventListener("click", function () {
+
+            enlargedImage.src = productImage.src;
+            enlargedImage.alt = productImage.alt;
+
+            imageLightbox.showModal();
+
+        });
+
+    });
+
+    closeLightboxButton.addEventListener("click", function () {
+        imageLightbox.close();
+    });
+
+    imageLightbox.addEventListener("click", function (event) {
+        if (event.target === imageLightbox) {
+            imageLightbox.close();
+        }
+    });
+}
+
