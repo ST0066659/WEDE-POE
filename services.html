@@ -11,7 +11,7 @@
 
         <!--Page title-->
     <title>Adoption & Services | Paws & Hope Animal Rescue</title>
-     <meta name="description" content="Learn about Paws & Hope Animal Rescue, our mission, vision and team dedicated to helping animals find loving homes.">
+    <meta name="description" content="Learn about Paws & Hope Animal Rescue, our mission, vision and team dedicated to helping animals find loving homes.">
 </head>
 
 <body>
@@ -34,7 +34,14 @@
 
       <!--Main content of the services page--> 
     <main>
-        <img src="images/adoption.jpg" alt="Animal adoption and responsible pet care">
+
+
+    <div>
+    <img class="lightbox-images"
+         src="images/adoption.jpg"
+         alt="Animal adoption and responsible pet care">
+</div>
+
 
             <!--Introduction to services-->
         <section>
@@ -152,12 +159,30 @@
 
     </main>
 
+
+
+
+<!-- Image lightbox dialog -->
+<dialog id="images-lightbox">
+
+    <button id="close-lightbox" type="button">
+        Close
+    </button>
+
+    <img id="lightbox-image" src="" alt="">
+
+</dialog>
+
+
+
     <!--Website footer-->
     <footer>
         <p>&copy; 2026 Paws & Hope Animal Rescue</p>
         <p>Helping animals find safe and loving homes.</p>
     </footer>
 
+
+<script src="script.js"></script>    
 </body>
 
 </html>
