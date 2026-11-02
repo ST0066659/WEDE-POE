@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
 
     <!--Page information and responsive settings-->
     <meta charset="UTF-8">
@@ -38,8 +38,11 @@
     <main>
 
         <!--Volunteer and animal care image-->
-        <img src="images/volunteer.jpg" alt="Volunteer caring for an animal">
-
+       <div>
+    <img class="lightbox-images"
+         src="images/volunteer.jpg"
+         alt="Volunteer caring for an animal">
+</div>
         <!--Introduction to the enquiry page-->
         <section>
             <h2>Make an Enquiry</h2>
@@ -104,6 +107,11 @@
 
 
     </main>
+
+    <dialog id="images-lightbox">
+    <button id="close-lightbox" type="button">Close</button>
+    <img id="lightbox-image" src="" alt="">
+</dialog>
 
     <!--Website footer-->
     <footer>
