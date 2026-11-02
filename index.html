@@ -8,8 +8,8 @@
      <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Paws & Hope Animal Rescue | Home</title>
-     <meta name="description" content="Learn about Paws & Hope Animal Rescue, our mission, vision and team dedicated to helping animals find loving homes.">
+    <title>Document</title>
+    <meta name="description" content="Learn about Paws & Hope Animal Rescue, our mission, vision and team dedicated to helping animals find loving homes.">
 </head>
 <body>
     <!--Website header-->
@@ -28,26 +28,28 @@
     
 </nav>
       
+      <!--Main content of the home page-->
 <main>
 
-    <!-- Search section -->
-    <section>
-        <h2>Search Our Website</h2>
+     <!-- Search section -->
+<section>
+    <h2>Search Our Website</h2>
 
-        <input type="text" id="searchInput"
-               placeholder="Search here...">
+    <input type="text" id="searchInput"
+           placeholder="Search here...">
 
-        <button type="button" onclick="searchWebsite()">Search</button>
+    <button type="button" onclick="searchWebsite()">Search</button>
 
-        <div id="searchResults"></div>
-    </section>
-
-    <!-- Homepage dog image -->
+    <div id="searchResults"></div>
+</section>
+<class id="lightbox-images">
     <div>
-        <img class="lightbox-images"
-             src="images/rescue-dog.jpg"
-             alt="Rescued dog waiting for a loving home">
-    </div>
+    <img class="lightbox-images"
+         src="images/rescue-dog.jpg"
+         alt="Rescued dog waiting for a loving home">
+</div>
+    </class>
+
 
            <!--Welcome section--> 
     <section>
@@ -80,6 +82,11 @@
 
 </main>
 
+<dialog id="images-lightbox">
+    <button id="close-lightbox" type="button">Close</button>
+    <img id="lightbox-image" src="" alt="">
+</dialog>
+
        <!--Website footer-->
 <footer>
     <p>&copy; 2026 Paws & Hope Animal Rescue</p>
@@ -87,6 +94,6 @@
 </footer>
 
     
-
+<script src="script.js"></script>
 </body>
 </html>
