@@ -94,26 +94,25 @@ Image References section below.
 10. Alexas_Fotos. (2018). *Telephone, Vintage, Monochrome*. Pixabay.  
     Available at: Pixabay.  
     Accessed: 11 August 2026.
-
     
     ### Part 3 – Web Development and SEO Sources
 
 11. MDN Web Docs. (2025). *JavaScript Guide*.  
     Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide  
-    Accessed: 1 November 2026.
+    Accessed: 28 October 2026.
 
 12. MDN Web Docs. (2025). *Using HTML Form Validation*.  
     Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation  
-    Accessed: 1 November 2026.
+    Accessed: 28 October 2026.
 
 13. Google Search Central. (n.d.). *SEO Guide for Web Developers*.  
     Available at: https://developers.google.com/search/docs/fundamentals/get-started-developers  
-    Accessed: 1 November 2026.
+    Accessed: 29 October 2026.
 
 14. Google Search Central. (n.d.). *Introduction to robots.txt*.  
     Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro  
-    Accessed: 1 November 2026.
+    Accessed: 31 October 2026.
 
 15. MDN Web Docs. (n.d.). *Using the Fetch API*.  
     Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch  
-    Accessed: 1 November 2026.
+    Accessed: 31 October 2026.
