@@ -8,17 +8,12 @@ as part of a school POE website project.
 The website focuses on animal rescue, adoption, fostering, volunteering,
 sponsorship and animal welfare.
 
-## Part 2
+## Part 2 Website styling
 
 For Part 2, I started adding CSS to my website. I used CSS to change the colours and layout of the website.
-
 I am also working on making the website look better on different screen sizes, such as phones and tablets.
 
 ## Changelog
-
-### Part 2 updates
-
-- started adding css to the website
 
 ### Part 2 updates
 
@@ -28,6 +23,20 @@ I am also working on making the website look better on different screen sizes, s
 - improved navigation and keyboard focus
 - added styling for forms and buttons
 - updated the website sections, articles and footer
+  
+###  Part 3 Updates
+
+- Added JavaScript functionality to the website.
+- Added a search feature.
+- Added an image lightbox to display images.
+- Added an interactive opening-hours section.
+- Added form validation to the enquiry and contact forms.
+- Added form response messages.
+- Added SEO elements, including page titles and meta descriptions.
+- Improved image file names and alternative text.
+- Added an interactive Google Map to the Contact page.
+- Deployed the website using Netlify.
+- Updated the README with project information, changelog and references.
 
 ## Research and Content
 
